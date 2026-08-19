@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { rechercherVideosChaine } from '../services/apiYoutube.js';
+import { rechercherVideosChaine } from '../services/ApiYoutube.js';
 
 const Recherche = () => {
     const naviguer = useNavigate();

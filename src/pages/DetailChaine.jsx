@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { recupererStatistiquesChaine, recupererVideosPlaylist } from '../services/apiYoutube';
-import { formaterNombre } from '../services/formatteur';
-import GrilleVideos from '../composants/GrilleVideos';
+import { recupererStatistiquesChaine, recupererVideosPlaylist } from '../services/ApiYoutube.js';
+import { formaterNombre } from '../services/Formatteur.js';
+import GrilleVideos from '../composants/GrilleVideos.jsx';
 
 const IMAGE_PAR_DEFAUT = "https://via.placeholder.com/150/12161f/ffffff?text=Logo";
 

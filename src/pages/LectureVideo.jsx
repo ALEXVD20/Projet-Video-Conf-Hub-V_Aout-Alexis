@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { recupererDetailsVideo } from '../services/apiYoutube.js';
-import { formaterNombre, formaterDate } from '../services/formatteur.js';
+import { recupererDetailsVideo } from '../services/ApiYoutube.js';
+import { formaterNombre, formaterDate } from '../services/Formatteur.js';
 
 const LectureVideo = () => {
   const { identifiantVideo } = useParams();
