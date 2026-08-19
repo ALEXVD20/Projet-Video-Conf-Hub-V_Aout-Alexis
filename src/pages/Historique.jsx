@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { recupererDetailsVideo } from '../services/apiYoutube.js';
-import GrilleVideos from '../composants/GrilleVideos';
+import { recupererDetailsVideo } from '../services/ApiYoutube.js';
+import GrilleVideos from '../composants/GrilleVideos.jsx';
 
 const Historique = () => {
   const [videosHistorique, modifierVideosHistorique] = useState([]);

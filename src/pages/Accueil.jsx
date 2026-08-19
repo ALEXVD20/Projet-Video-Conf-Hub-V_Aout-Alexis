@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { recupererStatistiquesChaine } from '../services/apiYoutube';
-import { formaterNombre } from '../services/formatteur';
+import { recupererStatistiquesChaine } from '../services/ApiYoutube.js';
+import { formaterNombre } from '../services/Formatteur.js';
 
 const Accueil = () => {
   const naviguer = useNavigate();
